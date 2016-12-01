@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_for_weixin",
+  "version": "0.0.1",
+  "description": "nodeJs for wexin",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rain1368189893/nodeJs_for_wexin.git"
+  },
+  "keywords": [
+    "nodejs",
+    "wexin",
+    "weui"
+  ],
+  "author": "rain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rain1368189893/nodeJs_for_wexin/issues"
+  },
+  "homepage": "https://github.com/Rain1368189893/nodeJs_for_wexin#readme"
+}
