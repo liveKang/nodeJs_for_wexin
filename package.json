@@ -25,9 +25,12 @@
   },
   "homepage": "https://github.com/Rain1368189893/nodeJs_for_wexin#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "mongoose": "^4.7.1",
+    "mongoosedao": "^1.0.13"
   },
   "devDependencies": {
-    "connect": "^3.5.0"
+    "connect": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
