@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/Rain1368189893/nodeJs_for_wexin/issues"
   },
-  "homepage": "https://github.com/Rain1368189893/nodeJs_for_wexin#readme"
+  "homepage": "https://github.com/Rain1368189893/nodeJs_for_wexin#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "connect": "^3.5.0"
+  }
 }
