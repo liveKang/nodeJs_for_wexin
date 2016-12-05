@@ -11,7 +11,7 @@ require('../db');
 describe('POST /users/register', function(){
     it('response register width json', function(done){
         request(app)
-            .post('./users/register')
+            .post('/users/register')
             .field('name', 'stuq')
             .field('password', '123456')
             .set('Accept', 'application/json')
