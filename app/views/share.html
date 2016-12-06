@@ -1,6 +1,6 @@
 <!-- 写一个简单的页面，分享当朋友圈，要求指定标题文字和图片 -->
 <!DOCTYPE>
-<hmtl>
+<html>
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
@@ -13,3 +13,31 @@
 </html>
 
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    function postAjax() {
+        var params = {
+            "jsonrpc" : "2.0",
+            "method" : "weixin_shareLink",
+            "id" : 1
+        }
+
+        var url = "http://api.jphd.com/v1/ClientService";
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("open", url, true);
+        xhr.setRequestHeader('Content-type', 'text/plain;charset=UTF-8');
+        xhr.onreadystatechange = function(err){
+            if(xhr.readyState === 4) {
+                if(xhr.status === 200) {
+                    var result = JSON.parse(xhr.responseText);
+                    console.log(result);
+                } else {
+                    alert(JSON.stringif(xhr.statusText));
+                }
+            }
+        };
+        xhr.onerror = function(err) {
+            alert(JSON.stringif(xhr.statusText));
+        };
+    }()
+</script>
