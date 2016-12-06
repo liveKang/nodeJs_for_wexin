@@ -1,0 +1,32 @@
+{
+  "name": "nodejs_for_weixin",
+  "description": "nodeJs for wexin",
+  "main": "index.js",
+  "authors": [
+    "rain"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "wexin",
+    "weui"
+  ],
+  "homepage": "https://github.com/Rain1368189893/nodeJs_for_wexin",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "fastclick": "^1.0.6",
+    "layzr.js": "^2.2.1",
+    "iscroll": "^5.2.0",
+    "swiper": "^3.4.0",
+    "moment": "momentjs#^2.17.1",
+    "weui": "^1.1.0"
+  }
+}
